@@ -28,7 +28,7 @@ class ArbFinder(object):
             self.driver.get(URL)
         except:
             pass
-        self.sport = 'Baseball'
+        self.sport = 'Football'
 
     def set_type(self, ASK=0, BID=1):
         # time.sleep(1)
